@@ -14,7 +14,7 @@
 <body>
   <body class="d-flex flex-column min-vh-100"></body>
 
-<nav class="navbar navbar-expand-lg bg-white shadow-sm">
+<nav class="navbar navbar-expand-lg bg-white shadow-sm">  
   <div class="container-fluid">
 
     <!-- LOGO -->
@@ -37,24 +37,12 @@
       <form class="d-flex my-3 my-lg-0 mx-lg-3 w-100 w-lg-auto">
         <input class="form-control rounded-pill"
                type="search"
-               placeholder="Search architecture and interior designs">
+               placeholder=" 🔍 Search architecture and interior designs">
       </form>
 
       <!-- MENU -->
-      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle fw-bold" href="#" data-bs-toggle="dropdown">
-            Photos
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Living Room</a></li>
-            <li><a class="dropdown-item" href="#">Bedroom</a></li>
-            <li><a class="dropdown-item" href="#">Kitchen</a></li>
-            <li><a class="dropdown-item" href="#">Bathroom</a></li>
-            <li><a class="dropdown-item" href="#">Exterior</a></li>
-          </ul>
-        </li>
+      <ul class="navbar-nav mx-auto align-items-lg-center gap-lg-4">
+        <li class="nav-item"><a class="nav-link fw-bold" href="#">Services</a></li>
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle fw-bold" href="#" data-bs-toggle="dropdown">
@@ -68,10 +56,22 @@
           </ul>
         </li>
 
-        <li class="nav-item"><a class="nav-link fw-bold" href="#">Services</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle fw-bold" href="#" data-bs-toggle="dropdown">
+            Photos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Living Room</a></li>
+            <li><a class="dropdown-item" href="#">Bedroom</a></li>
+            <li><a class="dropdown-item" href="#">Kitchen</a></li>
+            <li><a class="dropdown-item" href="#">Bathroom</a></li>
+          </ul>
+        </li>
         <li class="nav-item"><a class="nav-link fw-bold" href="#">About</a></li>
-        <li class="nav-item"><a class="nav-link fw-bold" href="#">Help</a></li>
-
+        <li class="nav-item"><a class="nav-link fw-bold" href="#">Contact</a></li>
+          <button id="darkModeBtn" class="btn btn-outline-dark">
+            🌗
+          </button>
       </ul>
     </div>
   </div>
@@ -213,7 +213,8 @@
 
   <section class="browse-section">
     <section class="container">
-      <h2 class="section-title">Browse Ideas by Room</h2>
+      <h2 class="section-title">What are you looking for?
+</h2>
 
       <div class="room-two-grid">
 
@@ -234,7 +235,7 @@
               <span class="carousel-control-next-icon"></span>
             </button>
           </div>
-          <p class="room-name">KITCHEN DESIGNS</p>
+          <p class="room-name">KITCHEN </p>
         </div>
 
         

@@ -191,28 +191,56 @@ body {
 }
 
 
-
-/* Service Page Css */
-
-.hero {
-  width: 100%;
+/* ===== Service Hero ===== */
+.service-hero {
   height: 90vh;
-  background-image: url("../asset/img/living-room-581073.jpg");
+  background-image: url("../asset/img/service.img/img.01b.webp");
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
-.service-hero {
-  min-height: 100vh;
-  background:
-    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-    url("../img/service.img/img.1.avif") center / cover no-repeat;
-}
-.service-hero {
-  min-height: 70vh;
-  background:
-    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-    url("../img/services/service-hero.jpg") center/cover no-repeat;
+/* Overlay */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
 }
 
+/* Content */
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  max-width: 500px;
+}
+
+/* ===== Form Card ===== */
+.service-form {
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .service-hero {
+    height: auto;
+    padding: 80px 0;
+  }
+
+  .hero-content {
+    margin-bottom: 40px;
+  }
+}

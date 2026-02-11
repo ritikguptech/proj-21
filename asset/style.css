@@ -244,3 +244,90 @@ body {
     margin-bottom: 40px;
   }
 }
+/* GALLERY SECTION */
+.custom-card {
+  height: 260px;
+}
+
+.custom-card img {
+  height: 100%;
+  object-fit: cover;
+  transition: 0.4s ease;
+}
+
+.custom-card:hover img {
+  transform: scale(1.1);
+}
+
+.card-overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+}
+ 
+/* ABOUT SECTION */
+.about-hero {
+  background: linear-gradient(135deg, #f8f9fa, #eef2f7);
+}
+
+.about-hero h1 {
+  color: #222;
+  line-height: 1.2;
+}
+
+.about-hero p {
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.image-box {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.image-box img {
+  transition: transform 0.4s ease;
+}
+
+.image-box:hover img {
+  transform: scale(1.05);
+}
+
+.stat-card {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.stat-card h4 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.stat-card p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Contact section */
+
+
+
+.social-icon {
+  font-size: 24px;
+  color: #333;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  color: #151515;
+  transform: scale(1.2);
+}
+

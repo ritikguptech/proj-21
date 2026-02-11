@@ -7,7 +7,7 @@
 /* BODY */
 body {
   font-family: 'Poppins', sans-serif;
-  color: rgb(96, 236, 229);
+  color: rgb(0, 0, 0);
 }
 
 /* NAVBAR SEARCH */
@@ -35,7 +35,7 @@ body {
 }
 
 .navbar-nav .nav-link:hover {
-  background: #98760695;
+  background: #09456ada;
   color: #000000;
 }
 
@@ -267,53 +267,16 @@ body {
 }
  
 /* ABOUT SECTION */
-.about-hero {
-  background: linear-gradient(135deg, #f8f9fa, #eef2f7);
-}
-
 .about-hero h1 {
-  color: #222;
   line-height: 1.2;
 }
 
-.about-hero p {
-  font-size: 17px;
-  line-height: 1.8;
+.about-hero img {
+  transition: 0.4s;
 }
 
-.image-box {
-  overflow: hidden;
-  border-radius: 20px;
-}
-
-.image-box img {
-  transition: transform 0.4s ease;
-}
-
-.image-box:hover img {
+.about-hero img:hover {
   transform: scale(1.05);
-}
-
-.stat-card {
-  background: #ffffff;
-  border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
-  transition: 0.3s;
-}
-
-.stat-card h4 {
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.stat-card p {
-  font-size: 14px;
-  color: #666;
-  margin: 0;
-}
-
-.stat-card:hover {
-  transform: translateY(-5px);
 }
 
 /* Contact section */

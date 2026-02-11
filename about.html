@@ -10,113 +10,118 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="asset/style.css">
 </head>
+<body
 
-<body class="d-flex flex-column min-vh-100">
+  <body class="d-flex flex-column min-vh-100"></body>
 
-  <!-- NAVBAR -->
- <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm">
     <div class="container-fluid">
 
+      <!-- LOGO -->
       <a class="navbar-brand" href="index.html">
         <img src="asset/img/img.logo.png" alt="BuildCraft Studio" class="img-fluid" style="max-width:180px;">
       </a>
 
+      <!-- TOGGLER (MOST IMPORTANT) -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
 
+      <!-- COLLAPSIBLE CONTENT -->
       <div class="collapse navbar-collapse" id="mainNavbar">
 
-       <form class="d-flex my-3 my-md-0 mx-md-3">
+        <!-- SEARCH -->
+        <form class="d-flex my-3 my-lg-0 mx-lg-3 w-100 w-lg-auto">
           <input class="form-control rounded-pill" type="search"
-            placeholder="🔍 Search architecture and interior designs">
+            placeholder=" 🔍 Search architecture and interior designs">
         </form>
 
-        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+        <ul class="navbar-nav mx-auto align-items-lg-center gap-lg-3">
           <li class="nav-item"><a class="nav-link fw-bold" href="service.html">Services</a></li>
-          <li class="nav-item"><a class="nav-link fw-bold" href="gallery.html">Gallery</a></li>
+        
+    
+        <li class="nav-item"><a class="nav-link fw-bold" href="gallery.html">Gallery</a></li>
           <li class="nav-item"><a class="nav-link fw-bold" href="about.html">About</a></li>
           <li class="nav-item"><a class="nav-link fw-bold" href="contact.html">Contact</a></li>
-          <li class="nav-item">
-            <button id="darkModeBtn" class="btn btn-outline-dark">🌗</button>
-          </li>
-        </ul>
 
+          <button id="darkModeBtn" class="btn btn-outline-dark">
+            🌙
+          </button>
+        </ul>
       </div>
     </div>
   </nav>
-
   <!-- MAIN -->
   <main class="flex-grow-1">
+<section class="about-hero py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center gy-4">
 
-    <!-- ABOUT HERO -->
-    <section class="about-hero py-5">
-      <div class="container">
-        <div class="row align-items-center g-5">
+      <!-- TEXT SIDE -->
+      <div class="col-lg-6 text-center text-lg-start">
 
-          <div class="col-lg-6">
-            <span class="badge bg-warning-subtle text-warning fw-semibold px-3 py-2 mb-3">
-              How It Started
-            </span>
+        <span class="badge bg-warning-subtle text-warning fw-semibold px-3 py-2 mb-3">
+          How It Started
+        </span>
 
-            <h1 class="fw-bold display-5 mb-4">
-              Building Spaces That Inspire Modern Living
-            </h1>
+        <h1 class="fw-bold display-5 mb-4">
+          Building Spaces That Inspire Modern Living
+        </h1>
 
-            <p class="lead text-muted">
-              At BuildCraft Studio, our journey began with a vision —
-              to transform ordinary spaces into extraordinary living experiences.
-              We believe architecture is not just about structures,
-              but about creating environments that reflect comfort and innovation.
-            </p>
+        <p class="lead text-muted">
+          At BuildCraft Studio, our journey began with a vision —
+          to transform ordinary spaces into extraordinary living experiences.
+          We believe architecture is not just about structures,
+          but about creating environments that reflect comfort and innovation.
+        </p>
+
+      </div>
+
+      <!-- IMAGE SIDE -->
+      <div class="col-lg-6 text-center">
+
+        <img src="asset/img/hd_image.webp"
+          class="img-fluid rounded-4 shadow"
+          alt="About Image">
+
+        <!-- STATS -->
+        <div class="row row-cols-2 g-3 mt-4">
+
+          <div class="col">
+            <div class="bg-white shadow-sm rounded-4 p-3">
+              <h5 class="fw-bold mb-1">10+</h5>
+              <small class="text-muted">Years Experience</small>
+            </div>
           </div>
 
-          <div class="col-lg-6">
-
-            <div class="image-box">
-              <img src="asset/img/hd_image.webp"
-                class="img-fluid rounded-4 shadow-lg"
-                alt="About Image">
+          <div class="col">
+            <div class="bg-white shadow-sm rounded-4 p-3">
+              <h5 class="fw-bold mb-1">120+</h5>
+              <small class="text-muted">Projects Completed</small>
             </div>
+          </div>
 
-            <div class="row g-3 mt-4">
+          <div class="col">
+            <div class="bg-white shadow-sm rounded-4 p-3">
+              <h5 class="fw-bold mb-1">950+</h5>
+              <small class="text-muted">Happy Clients</small>
+            </div>
+          </div>
 
-              <div class="col-6">
-                <div class="stat-card text-center p-3">
-                  <h4>10+</h4>
-                  <p>Years Experience</p>
-                </div>
-              </div>
-
-              <div class="col-6">
-                <div class="stat-card text-center p-3">
-                  <h4>120+</h4>
-                  <p>Projects Completed</p>
-                </div>
-              </div>
-
-              <div class="col-6">
-                <div class="stat-card text-center p-3">
-                  <h4>950+</h4>
-                  <p>Happy Clients</p>
-                </div>
-              </div>
-
-              <div class="col-6">
-                <div class="stat-card text-center p-3">
-                  <h4>4.9★</h4>
-                  <p>Client Rating</p>
-                </div>
-              </div>
-
+          <div class="col">
+            <div class="bg-white shadow-sm rounded-4 p-3">
+              <h5 class="fw-bold mb-1">4.9★</h5>
+              <small class="text-muted">Client Rating</small>
             </div>
           </div>
 
         </div>
-      </div>
-    </section>
 
+      </div>
+
+    </div>
+  </div>
+</section>
 
     <!-- WHY CHOOSE US -->
     <section class="py-5 bg-light">

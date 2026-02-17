@@ -5,51 +5,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BuildCraft Studio</title>
-  <link rel="stylesheet" href="asset/style.css">
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet integrity="
-    sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB crossorigin="anonymous">
+  <link rel="stylesheet" href="asset/style.css">
 </head>
-<body>
-  <body class="d-flex flex-column min-vh-100"></body>
+
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg bg-white shadow-sm">
     <div class="container-fluid">
+
+      <!-- LOGO -->
       <a class="navbar-brand" href="index.html">
         <img src="asset/img/BUILD CRAFT.png" alt="BuildCraft Studio" class="img-fluid" style="max-width:180px;">
       </a>
+
+      <!-- TOGGLER -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
-   <div class="collapse navbar-collapse" id="mainNavbar">
 
-  <!-- LEFT SPACE (auto) -->
-  <div class="flex-grow-1"></div>
+      <div class="collapse navbar-collapse" id="mainNavbar">
 
-  <!-- CENTER MENU -->
-   <ul class="navbar-nav nav-center align-items-lg-center">
+        <!-- LEFT SPACE -->
+        <div class="flex-grow-1"></div>
 
-   <li class="nav-item">
-      <a class="nav-link fw-bold" href="about.html">About</a>
-    </li>
+        <!-- CENTER MENU -->
+        <ul class="navbar-nav nav-center align-items-lg-center">
 
-    <li class="nav-item">
-      <a class="nav-link fw-bold" href="service.html">Services</a>
-    </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
 
-    <li class="nav-item">
-      <a class="nav-link fw-bold" href="gallery.html">Gallery</a>
-    </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.html">Services</a>
+          </li>
 
-    <li class="nav-item">
-      <a class="nav-link fw-bold" href="contact.html">Contact</a>
-    </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
 
-      </ul>
-       </div>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+
+        </ul>
+
       </div>
     </div>
   </nav>
+
   <main class="flex-grow-1">
 <section class="hero service-hero">
   <div class="hero-overlay"></div>
@@ -57,9 +65,12 @@
   <div class="container h-100">
     <div class="row h-100 align-items-center">
 
-      <!-- LEFT CONTENT -->
-      <div class="col-lg-7 text-white hero-content">
+      <!-- CONTENT CENTER -->
+      <div class="col-lg-8 mx-auto text-center text-white hero-content">
+
+
         <h1 class="mb-3">Our Professional Services</h1>
+
         <p class="mb-4">
           Get expert architecture & interior design services tailored
           to your space, style, and budget.
@@ -71,35 +82,13 @@
           <li>✔ 3D Elevation</li>
           <li>✔ Turnkey Projects</li>
         </ul>
+
       </div>
 
-      <!-- RIGHT FORM -->
-      <div class="col-lg-5">
-        <div class="service-form">
-          <h5 class="mb-3 text-center">Apply for Service</h5>
-
-          <form>
-            <input type="text" class="form-control mb-3" placeholder="Your Name" required>
-            <input type="email" class="form-control mb-3" placeholder="Email Address" required>
-            <input type="tel" class="form-control mb-3" placeholder="Phone Number" required>
-
-            <select class="form-select mb-3">
-              <option selected>Select Service</option>
-              <option>Architecture Design</option>
-              <option>Interior Design</option>
-              <option>3D Elevation</option>
-              <option>Consultation</option>
-            </select>
-
-            <button type="submit" class="btn btn-dark w-100">
-              Submit Request
-            </button>
-          </form>
-        </div>
-      </div>
     </div>
   </div>
 </section>
+
 <section id="services" class="py-5 bg-light">
   <div class="container">
     <div class="text-center mb-5">

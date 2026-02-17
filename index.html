@@ -1,51 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BuildCraft Studio</title>
-  <link rel="stylesheet" href="asset/style.css">
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet integrity="
-    sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB crossorigin="anonymous">
+  <link rel="stylesheet" href="asset/style.css">
 </head>
-<body>
- <body class="d-flex flex-column min-vh-100">
+
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg bg-white shadow-sm">
     <div class="container-fluid">
+
+      <!-- LOGO -->
       <a class="navbar-brand" href="index.html">
         <img src="asset/img/BUILD CRAFT.png" alt="BuildCraft Studio" class="img-fluid" style="max-width:180px;">
       </a>
+
+      <!-- TOGGLER -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
-    <div class="collapse navbar-collapse" id="mainNavbar">
 
-  <!-- LEFT SPACE (auto) -->
-  <div class="flex-grow-1"></div>
+      <div class="collapse navbar-collapse" id="mainNavbar">
 
-  <!-- CENTER MENU -->
-   <ul class="navbar-nav nav-center align-items-lg-center">
+        <!-- LEFT SPACE -->
+        <div class="flex-grow-1"></div>
 
-   <li class="nav-item">
-      <a class="nav-link fw-bold" href="about.html">About</a>
-    </li>
+        <!-- CENTER MENU -->
+        <ul class="navbar-nav nav-center align-items-lg-center">
 
-    <li class="nav-item">
-      <a class="nav-link fw-bold" href="service.html">Services</a>
-    </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
 
-    <li class="nav-item">
-      <a class="nav-link fw-bold" href="gallery.html">Gallery</a>
-    </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.html">Services</a>
+          </li>
 
-    <li class="nav-item">
-      <a class="nav-link fw-bold" href="contact.html">Contact</a>
-    </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
 
-      </ul>
-       </div>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+
+        </ul>
+
       </div>
     </div>
   </nav>
@@ -57,101 +65,91 @@
       <a href="#" class="hero-btn">Explore Designs</a>
     </div>
   </section>
-  <section class="py-5 bg-light">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="container">
-          <div class="row align-items-center">
-            <!-- LEFT IMAGE / CAROUSEL -->
-            <div class="col-lg-6 mb-4 mb-lg-0">
-              <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner rounded-4 shadow-sm">
-                  <div class="carousel-item active">
-                    <img src="asset/img/about.img/img.01.avif" class="d-block w-100" alt="About image 1">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="asset/img/about.img/img.02.avif" class="d-block w-100" alt="About image 2">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="asset/img/about.img/img.03.avif" class="d-block w-100" alt="About image 3">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- RIGHT CONTENT -->
-            <div class="col-lg-6 ps-lg-5">
-              <h6 class="text-uppercase fw-bold text-muted mb-2">About Us</h6>
-              <h2 class="fw-bold mb-4">
-                Designing Spaces That Inspire Living
-              </h2>
-              <p class="text-secondary">
-                BuildCraft Studio is a creative architecture and interior design firm
-                focused on crafting modern, functional, and timeless spaces.
-              </p>
-              <p class="text-secondary">
-                From concept to execution, we work closely with our clients to deliver
-                designs that reflect their lifestyle, needs, and vision.
-              </p>
-              <a href="#" class="btn btn-dark mt-3">Learn More</a>
-            </div>
-  </section>
-  <section class="inspiration-search">
-    <div class="container my-5">
-      <h2 class="fw-bold mb-4">
-        Find Inspiration From Top Firms
-      </h2>
-      <div class="d-flex gap-3 mb-4">
-        <input type="text" class="form-control rounded-pill px-4" placeholder="Search for...">
-        <button class="btn btn-dark rounded-pill px-4 text-nowrap fw-bold">
-          Show Ideas
-        </button>
+ <section class="about-section py-5">
+  <div class="container">
+    <div class="row align-items-center g-5">
+
+      <!-- IMAGE -->
+      <div class="col-lg-6">
+        <div class="about-img-wrapper">
+          <img src="asset/img/about.img/img.01.avif" alt="About" class="img-fluid about-img">
+        </div>
       </div>
-      <div class="d-flex flex-wrap gap-2">
-        <span class="btn btn-outline-secondary rounded-pill">Kitchen</span>
-        <span class="btn btn-outline-secondary rounded-pill">Bedroom</span>
-        <span class="btn btn-outline-secondary rounded-pill">Living</span>
-        <span class="btn btn-outline-secondary rounded-pill">Bath</span>
+
+      <!-- CONTENT -->
+      <div class="col-lg-6">
+        <div class="about-content">
+
+          <h6 class="about-tag">ABOUT US</h6>
+
+          <h2 class="about-title">
+            Designing Spaces That Inspire Living
+          </h2>
+
+          <p>
+            BuildCraft Studio is a creative architecture and interior design firm
+            focused on crafting modern, functional, and timeless spaces.
+          </p>
+
+          <p>
+            From concept to execution, we work closely with our clients to deliver
+            designs that reflect their lifestyle, needs, and vision.
+          </p>
+
+          <a href="#" class="about-btn">Learn More</a>
+
+        </div>
       </div>
+
     </div>
-  </section>
-  <section class="ideas-grid">
-    <div class="container">
-      <div class="row g-4">
-        <div class="col-md-3 col-sm-6">
-          <div class="photo-box text-center">
-            <img src="asset/img/homeoffice/img.012.jpg" class="img-fluid same-img">
-            <a href="#" class="btn btn-outline-dark rounded-pill mt-3">
-              Homeoffice Interior
-            </a>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="photo-box text-center">
-            <img src="asset/img/dining/img.01.jpeg" class="img-fluid same-img">
-            <a href="#" class="btn btn-outline-dark rounded-pill mt-3">
-              Dining Interior
-            </a>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="photo-box text-center">
-            <img src="asset/img/bedroom/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv-chandelier.jpeg" class="img-fluid same-img">
-            <a href="#" class="btn btn-outline-dark rounded-pill mt-3">
-              Bedroom Interior
-            </a>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="photo-box text-center">
-            <img src="asset/img/bathroom/bath.01.avif" class="img-fluid same-img">
-            <a href="#" class="btn btn-outline-dark rounded-pill mt-3">
-              Bathroom Interior
-            </a>
+  </div>
+</section>
+
+ <section class="ideas-grid py-5">
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- CARD -->
+      <div class="col-md-3 col-sm-6">
+        <div class="idea-card">
+          <img src="asset/img/homeoffice/img.012.jpg" alt="">
+          <div class="idea-overlay">
+            <h5>Homeoffice Interior</h5>
           </div>
         </div>
       </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="idea-card">
+          <img src="asset/img/dining/img.01.jpeg" alt="">
+          <div class="idea-overlay">
+            <h5>Dining Interior</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="idea-card">
+          <img src="asset/img/bedroom/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv-chandelier.jpeg" alt="">
+          <div class="idea-overlay">
+            <h5>Bedroom Interior</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="idea-card">
+          <img src="asset/img/bathroom/bath.01.avif" alt="">
+          <div class="idea-overlay">
+            <h5>Bathroom Interior</h5>
+          </div>
+        </div>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
+
   <section class="browse-section">
     <section class="container">
       <h2 class="section-title">What are you looking for?
@@ -234,138 +232,11 @@
           <p class="room-name">BEDROOM</p>
         </div>
       </div>
-      <div class="room-two-grid">
-        <div class="room-box">
-          <div id="homeofficeCarousel" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="asset/img/homeoffice/img.01223.jpg" class="d-block w-100" alt="homeoffice  design 1">
-              </div>
-              <div class="carousel-item actie">
-                <img src="asset/img/homeoffice/img.01222.jpg" class="d-block w-100" alt="homeoffice  design 2">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#HomeofficeCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#HomeofficeCarousel"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </button>
-          </div>
-          <p class="room-name">HOMEOFFICE</p>
-        </div>
-        <div class="room-box">
-          <div id="kidsroomCarousel" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="asset/img/kidsroom/img.001.avif" class="d-block w-100" alt="kidsroom design 1">
-              </div>
-              <div class="carousel-item">
-                <img src="asset/img/kidsroom/k.002.jpg" class="d-block w-100" alt="kidsroom design 2">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#kidsroomCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#kidsroomCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </button>
-          </div>
-               <p class="room-name">KIDSROOM</p>
-        </div>
       </div>
     </section>
-    <!-- BROWSE BY ROOM -->
-    <section class="browse-section">
-      <section class="container">
-        <h2 class="section-title">Architechture Designs</h2>
-        <div class="room-two-grid">
-          <!-- Kitchen Box -->
-          <div class="room-box">
-            <div id="kitchenCarousel" class="carousel slide">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="asset/img/kitchen/kit.01.avif" class="d-block w-100" alt="Kitchen design 1">
-                </div>
-                <div class="carousel-item">
-                  <img src="asset/img/kitchen/kit.02.avif" class="d-block w-100" alt="Kitchen design 2">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#kitchenCarousel"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#kitchenCarousel"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </button>
-            </div>
-            <p class="room-name">KITCHEN DESIGNS</p>
-          </div>
-          <!-- Living Room Box -->
-          <div class="room-box">
-            <div id="livingCarousel" class="carousel slide">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="asset/img/livingroom/living.01.avif" class="d-block w-100" alt="Living room design 1">
-                </div>
-                <div class="carousel-item">
-                  <img src="asset/img/livingroom/living.02.avif" class="d-block w-100" alt="Living room design 2">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#livingCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#livingCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </button>
-            </div>
-            <p class="room-name">LIVING ROOM</p>
-          </div>
-          <!-- Gaming Room Box -->
-          <div class="room-box">
-            <div id="gamingCarousel" class="carousel slide">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="asset/img/gaming room/gaming.01.avif" class="d-block w-100" alt="Gaming room design 1">
-                </div>
-                <div class="carousel-item">
-                  <img src="asset/img/gaming room/gaming.02.avif" class="d-block w-100" alt="Gaming room design 2">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#gamingCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#gamingCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </button>
-            </div>
-            <p class="room-name">GAMING ROOM</p>
-          </div>
-          <div class="room-box">
-            <div id="bedroomCarousel" class="carousel slide">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="asset/img/bedroom/bed.01.avif" class="d-block w-100" alt="Bedroom design 1">
-                </div>
-                <div class="carousel-item">
-                  <img src="asset/img/bedroom/bed.02.avif" class="d-block w-100" alt="Bedroom design 2">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#bedroomCarousel"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#bedroomCarousel"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </button>
-            </div>
-            <p class="room-name">BEDROOM</p>
-          </div>
-        </div>
-      </section>
+   <section class="browse-section">
+    <section class="container">
+     
    <!-- WHY CHOOSE US -->
     <section class="py-5 bg-light">
       <div class="container text-center">
